@@ -1,0 +1,24 @@
+# Exclude all .zip files
+*.zip
+
+# Exclude all .pyc files
+*.pyc
+
+# Do not store image datasets on GitHub!  
+# GitHub may apply compression algorithms that alter pixel values, leading to poor model inference performance  
+*.jpg
+#*.png
+
+# Exclude python notebooks and vscode settings for debugger
+*.ipynb
+*.vscode
+
+# Exclude logging directory
+logs/
+
+# Exclude dataset
+data/
+
+# Exclude model weights and parameters
+*.th
+*_configs.txt
